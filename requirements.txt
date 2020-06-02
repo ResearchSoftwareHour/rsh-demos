@@ -1,3 +1,7 @@
 mock
 numpy
 networkx<2.0
+pylint
+pytest
+ipython
+ipdb

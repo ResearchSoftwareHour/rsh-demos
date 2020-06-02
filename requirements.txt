@@ -1,0 +1,3 @@
+mock
+numpy
+networkx<2.0

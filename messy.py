@@ -5,3 +5,4 @@ def function(argument1,  argument2):
 
 if __name__ == '__main__':
     function('hello, world!')
+

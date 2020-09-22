@@ -16,5 +16,5 @@ def is_zero(n, p=.5):
     p: probability of 1 (probablity of -1 is 1-p)
     """
     # This function should be about zero, but as n increases it gets better
-    numbers = random.choice((-1, 1), weights=(1-p, p), k=n)
+    numbers = random.choices((-1, 1), weights=(1-p, p), k=n)
     return sum(numbers) / n
